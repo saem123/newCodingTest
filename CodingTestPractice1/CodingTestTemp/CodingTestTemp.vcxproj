@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{6897E491-79C8-4658-A4E5-107A1AEBCBD7}</ProjectGuid>
-    <RootNamespace>CodingTestPractice</RootNamespace>
+    <ProjectGuid>{4f3f1d90-9975-4a3f-b6d6-19ccd68e4928}</ProjectGuid>
+    <RootNamespace>CodingTestTemp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,6 +123,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="baekjoon.h" />
+    <ClInclude Include="header.h" />
+    <ClInclude Include="programmers.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lv1_공원산책.cpp" />
+    <ClCompile Include="Lv1_덧칠하기.cpp" />
+    <ClCompile Include="Lv1_바탕화면정리.cpp" />
+    <ClCompile Include="Lv1_추억점수.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="셀프넘버_4673.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
