@@ -50,5 +50,11 @@
     <ClCompile Include="Lv1_덧칠하기.cpp">
       <Filter>소스 파일\Programmers</Filter>
     </ClCompile>
+    <ClCompile Include="Lv1_달리기경주.cpp">
+      <Filter>소스 파일\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1_대충만든자판.cpp">
+      <Filter>소스 파일\Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
