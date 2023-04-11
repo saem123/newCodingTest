@@ -28,7 +28,7 @@ vector<int> solution(vector<string> keymap, vector<string> targets) {
 	{
 		for (int j = 0; j < keymap[i].size(); j++)
 		{
-			//모르겠다.. 더고민좀
+			//모르겠다.. 더고민
 			break;
 		}
 	}
